@@ -1,0 +1,43 @@
+.backdrop {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  padding: 20px 0px 60px 0px;
+}
+
+.carousel {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.carousel h2 {
+  font-weight: lighter;
+  color: #ffff;
+}
+
+.slick-track {
+  display: flex !important;
+  gap: 15px;
+  margin: 0px 0px 0px -5px !important;
+}
+
+.slick-next,
+.slick-prev {
+  display: none !important;
+}
+
+.slick-dots li {
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 50%;
+  height: 10px !important;
+  width: 10px !important;
+}
+
+.slick-dots .slick-active {
+  background-color: rgb(136, 136, 136) !important;
+}
+
+.slick-dots li button::before {
+  color: rgba(238, 238, 238, 0) !important;
+}
