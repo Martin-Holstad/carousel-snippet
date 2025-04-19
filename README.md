@@ -1,6 +1,6 @@
 # VikingFjord whitelist frontend
 
-![image](https://github.com/user-attachments/assets/7ce60124-2b22-4811-8d61-39fa2871227b)
+![Screenshot 2025-04-19 082632](https://github.com/user-attachments/assets/c4caeaf0-82d9-42f8-bff0-5d44da9c220c)
 
 ## Description
 
@@ -10,23 +10,17 @@ Welcome to VikingFjord whitelist frontend! This React based project allows playe
 
 ## Features
 
-### Whitelist Form
+### Carousel
 
-- Users can submit their username and server password to gain access.
-- The top bar displays the server’s online status, in-game clock and Minecraft version.
-
-### Buttons
-
-- **Mod List**: Explore the server’s mods.
-- **Dynmap**: View the live Minecraft map.
-- **Online Players**: Check who’s currently online.
-- **Address**: Click to copy the server address to your clipboard.
+- Users can select a trailer and watch it.
+- It can slide to left and right to get more trailers.
+- It has dots/buttons that can be clicked to get more trailers.
 
 ## Dependencies
 
 - [React.js](https://reactjs.org/)
-- [React router](https://reactrouter.com/)
 - [Font awesome](https://docs.fontawesome.com/)
+- [React Slick](https://react-slick.neostack.com/)
 
 ## Getting Started
 
@@ -35,7 +29,7 @@ Welcome to VikingFjord whitelist frontend! This React based project allows playe
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/Martin-Holstad/VikingFjord-whitelist-frontend.git
+git clone https://github.com/Martin-Holstad/carousel-snippet.git
 ```
 
 2. Install the dependencies:
