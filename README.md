@@ -6,7 +6,7 @@
 
 Welcome to the Carousel Snippet! This React-based project showcases an interactive carousel, allowing users to browse through trailers. It features smooth drag functionality and clickable navigation dots.
 
-[Link to VikingFjord website](https://vikingfjord.netlify.app/)
+[Link to Carousel Snippet website](https://carousel-snippet.netlify.app/)
 
 ## Features
 
