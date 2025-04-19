@@ -1,10 +1,10 @@
-# VikingFjord whitelist frontend
+# Carousel Snippet
 
 ![Screenshot 2025-04-19 082632](https://github.com/user-attachments/assets/c4caeaf0-82d9-42f8-bff0-5d44da9c220c)
 
 ## Description
 
-Welcome to VikingFjord whitelist frontend! This React based project allows players to request access to the Minecraft server VikingFjord by entering their username and server password in a whitelist form.
+Welcome to the Carousel Snippet! This React-based project showcases an interactive carousel, allowing users to browse through trailers. It features smooth drag functionality and clickable navigation dots.
 
 [Link to VikingFjord website](https://vikingfjord.netlify.app/)
 
