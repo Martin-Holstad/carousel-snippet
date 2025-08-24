@@ -1,6 +1,6 @@
 # Carousel Snippet
 
-![Screenshot 2025-04-19 082632](https://github.com/user-attachments/assets/c4caeaf0-82d9-42f8-bff0-5d44da9c220c)
+<img width="2555" height="1299" alt="Screenshot 2025-08-24 180736" src="https://github.com/user-attachments/assets/4468ecd6-3b94-49ab-862f-82e68474b78e" />
 
 ## Description
 
