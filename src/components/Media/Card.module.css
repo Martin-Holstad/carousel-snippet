@@ -1,0 +1,32 @@
+.card {
+  position: relative;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.card p {
+  color: #ffff;
+}
+
+.playIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%) scale(1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover .playIcon {
+  transform: translate(-50%, -80%) scale(1.2);
+}

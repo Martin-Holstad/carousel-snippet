@@ -1,0 +1,7 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  background: radial-gradient(circle at center, #043259 30%, #0a2740 60%, #071e2d 90%, #04151e 100%);
+}
