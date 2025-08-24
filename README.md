@@ -21,6 +21,7 @@ Welcome to the Carousel Snippet! This React-based project showcases an interacti
 - [React.js](https://reactjs.org/)
 - [Font awesome](https://docs.fontawesome.com/)
 - [React Slick](https://react-slick.neostack.com/)
+- [Farmer Motion](https://www.npmjs.com/package/framer-motion)
 
 ## Getting Started
 
