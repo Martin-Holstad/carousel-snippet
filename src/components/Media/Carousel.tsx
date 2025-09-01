@@ -12,6 +12,7 @@ import settings from "./settings";
 export default function Carousel() {
   const [trailers, setTrailers] = useState<Trailer[]>([]);
   const [backGround, setBackGround] = useState<string>("");
+  const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
     async function fetch() {
@@ -20,6 +21,8 @@ export default function Carousel() {
         setTrailers(results);
       } catch (error) {
         console.log(error);
+      } finally {
+        setLoading(false);
       }
     }
     fetch();
@@ -30,27 +33,27 @@ export default function Carousel() {
   }, [trailers, backGround]);
 
   return (
-    <div className="carouselContainer">
-      <motion.div
-        className="backdrop"
-        key={backGround}
-        initial={{ opacity: 0.1 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.6 }}
-        style={{
-          backgroundImage: `linear-gradient(rgba(3, 37, 65, 0.5), rgba(3, 37, 65, 0.5)), url(${backGround})`,
-        }}
-      />
-      {trailers.length > 0 && (
+    !loading && (
+      <div className="carouselContainer">
+        <motion.div
+          className="backdrop"
+          key={backGround}
+          initial={{ opacity: 0.1 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.6 }}
+          style={{
+            backgroundImage: `linear-gradient(rgba(3, 37, 65, 0.5), rgba(3, 37, 65, 0.5)), url(${backGround})`,
+          }}
+        />
         <div className="carousel">
           <h2>Trailers</h2>
           <Slider {...settings}>
             {trailers.map((trailer) => (
-              <Card key={trailer.id} trailer={trailer} setBackGround={setBackGround} />
+              <Card key={trailer.id} trailer={trailer} setBackGround={setBackGround} setLoading={setLoading} />
             ))}
           </Slider>
         </div>
-      )}
-    </div>
+      </div>
+    )
   );
 }

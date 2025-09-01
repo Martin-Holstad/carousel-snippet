@@ -10,7 +10,7 @@
 
 .card img {
   width: 100%;
-  height: auto;
+  min-height: 200px;
   border-radius: 5px;
   margin-top: 10px;
 }

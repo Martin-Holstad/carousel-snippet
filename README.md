@@ -4,9 +4,9 @@
 
 ## Description
 
-Welcome to the Carousel Snippet! This React-based project showcases an interactive carousel, allowing users to browse through trailers. It features smooth drag functionality and clickable navigation dots.
+Welcome to the Carousel Snippet! This React project showcases an interactive carousel, allowing users to browse through trailers. It features smooth drag functionality and clickable navigation dots.
 
-[Link to Carousel Snippet website](https://carousel-snippet.netlify.app/)
+[Link to Carousel website](https://carousel-snippet.netlify.app/)
 
 ## Features
 
@@ -21,6 +21,7 @@ Welcome to the Carousel Snippet! This React-based project showcases an interacti
 - [React.js](https://reactjs.org/)
 - [Font awesome](https://docs.fontawesome.com/)
 - [React Slick](https://react-slick.neostack.com/)
+- [Farmer Motion](https://www.npmjs.com/package/framer-motion)
 
 ## Getting Started
 
@@ -43,7 +44,7 @@ npm install
 To run the app, run the following commands:
 
 ```bash
-npm run start
+npm run dev
 ```
 
 ## Contact
@@ -51,4 +52,3 @@ npm run start
 Email: Martinholstad3@hotmail.com
 
 Phone: 45436203
-
